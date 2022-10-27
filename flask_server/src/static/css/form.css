@@ -15,7 +15,7 @@ form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #2c3e50;
+  background: #EBEBEB;
   border-radius: 8px;
 }
 
@@ -37,7 +37,7 @@ input[type="url"],
 textarea,
 select {
   background: rgba(255, 255, 255, 0.1);
-  border: none;
+  border: 1px rgb(0, 0, 0) solid;
   font-size: 16px;
   height: auto;
   margin: 0;
@@ -62,16 +62,24 @@ select {
   margin-top: 30px;
   padding: 19px 39px 18px 39px;
   color: #FFF;
+  border: none;
   background-color: #141834;
   font-size: 18px;
   text-align: center;
   font-style: normal;
   border-radius: 10px;
   width: 100%;
-  border: 1px solid #141834;
-  border-width: 1px 1px 3px;
-  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin-bottom: 10px;
+  transition: 0.3s;
+}
+.button:hover{
+  background-color: #24284a;
+  transform: scale(1.03);
+}
+.button:active{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 fieldset {
@@ -106,6 +114,10 @@ label.light {
   text-align: center;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
   border-radius: 100%;
+}
+
+.contact{
+  color: black;
 }
 
 @media screen and (min-width: 480px) {
