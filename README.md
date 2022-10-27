@@ -126,7 +126,7 @@ In the future we would like to add the following features:
 
 * [Agustin Flom](https://www.linkedin.com/in/agustin-f/)
 * [Juan Manuel Reyes](https://www.linkedin.com/in/juanma-reyess/)
-* [Marcel Carrasco](https://www.linkedin.com/in/marcela-carrasco-piaggio-0796b333/)
+* [Marcela Carrasco](https://www.linkedin.com/in/marcela-carrasco-piaggio-0796b333/)
 * [Tarik Calixto](https://www.linkedin.com/in/tarik-calixto-964b52b5/)
 
 ## Licence :lock:
